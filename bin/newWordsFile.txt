@@ -14,10 +14,10 @@ camisa
 negra
 hoy
 mi
-AMOR
+amor
 está
 de
-luto
+LUTO
 hoy
 tengo
 en
@@ -35,7 +35,7 @@ embrujo
 hoy
 sé
 que
-tú
+TÚ
 ya
 no
 me
@@ -65,7 +65,7 @@ que
 solo
 me
 quedé
-Y
+y
 fue
 pura
 todita
@@ -76,7 +76,7 @@ maldita
 mala
 suerte
 la
-MÍA
+mía
 que
 aquel
 día
@@ -103,7 +103,7 @@ ese
 humo
 amargo
 de
-TU
+tu
 adiós
 y
 desde
@@ -136,13 +136,13 @@ hasta
 mi
 cama
 cama,
-cama,
+CAMA,
 come
 on,
 baby
 te
 digo
-con
+CON
 disimulo
 que
 tengo

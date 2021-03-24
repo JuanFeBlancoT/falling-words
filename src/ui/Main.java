@@ -1,11 +1,12 @@
+package ui;
 import java.util.ArrayList;
-import java.util.Arrays;
 
+import model.Palabra;
 import processing.core.PApplet;
 
 public class Main extends PApplet{
 	public static void main (String[] args) {
-		PApplet.main("Main");
+		PApplet.main("ui.Main");
 	}
 	
 	int spawnTime, index, buttonControl;
@@ -42,7 +43,7 @@ public class Main extends PApplet{
 			}
 			
 		wordsToMatch = selectWords();
-		//System.out.println(wordsToMatch[0].getPalabra());
+
 	}
 
 	public void draw() {
@@ -77,15 +78,10 @@ public class Main extends PApplet{
 			fill(40,180,120);
 			rect(700, 820, 150, 50);
 		}
-		//System.out.println(mouseX+":"+mouseY);
 		
 	}
-	//index =2;
-	
-	public void createWord() {
-		//| a | b | c | d | e | < words.size();
-		
-	}	
+
+
 	
 	public Palabra[] selectWords() {
 		
@@ -150,9 +146,7 @@ public class Main extends PApplet{
 						wordsToMatch[i].getPalabra().equals(palabritas.get(j).getPalabra())) {
 					wordsToMatch[i].setSelected(false);
 					wordsToMatch[i].setCanMove(false);
-					//test
 					palabritas.get(j).setCanMove(false);
-					//
 					wordsToMatch[i].setG(200);
 					wordsToMatch[i].setB(100);
 					buttonControl++;
@@ -161,3 +155,4 @@ public class Main extends PApplet{
 		}
 	}
 } 
+
